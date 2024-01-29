@@ -95,6 +95,10 @@ textarea{
     transform: translateY(2px); /* Elevación del botón al hacer clic */
 }
 
+#boton-reiniciar{
+    background-color: #4c6daf;
+}
+
 footer{
     margin: 10px;
     align-items: center;

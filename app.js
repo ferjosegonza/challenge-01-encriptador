@@ -66,3 +66,12 @@ function copiarTexto() {
         alert('No se pudo copiar el texto');
     }
 }
+
+function reiniciar() {
+    textareaIngresado = document.getElementById('textarea-texto-ingresado');
+    textareaResultado = document.getElementById('textarea-texto-resultado');
+    textareaIngresado.value = '';
+    textareaResultado.value = '';
+    textareaIngresado.style.fontSize = '50px';
+    textareaResultado.style.fontSize = '50px';
+}
