@@ -1,0 +1,226 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(13, 11, 11);
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: 'Black Ops One', system-ui;
+    text-align: center;
+    top: 0px;
+    color: rgba(255, 255, 255, 0.773);
+    padding: 20px;
+}
+
+#cuadro-texto-ingresado{
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    width: 590px;
+    height: 450px;
+    background-color: rgba(173, 216, 230, 0.7);
+    padding: 20px;
+    clip-path: polygon(0% 0%, 99% 17%, 100% 72%, 0% 100%);
+    flex-direction: column;
+}
+
+#cuadro-texto-resultado{
+    position: absolute;
+    top: 155px;
+    left: 820px;
+    width: 600px;
+    height: 290px;
+    background-color: rgba(173, 216, 230, 0.7);
+    padding: 20px;
+    clip-path: polygon(0% 14%, 99% 0%, 100% 100%, 2% 100%);
+}
+
+textarea{
+    position: inherit;
+    background-color: rgba(173, 216, 230, 0);
+    font-size: 40px;
+    transition: font-size 0.5s;
+    border: 0px;
+    resize: none;
+}
+
+#textarea-texto-ingresado{
+    top: 85px;
+    width: 590px;
+    height: 250px;
+}
+
+#textarea-texto-resultado{
+    top: 50px;
+    width: 590px;
+    height: 250px;
+}
+
+.ubicacion-botones {
+    position: absolute;
+    top: 510px;
+    left: 400px;
+}
+
+.ubicacion-boton-copiar{
+    position: absolute;
+    top: 510px;
+    left: 890px;
+}
+
+/* Estilo base del botón */
+.futuristic-button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto de hover para resaltar el botón */
+.futuristic-button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el ratón */
+}
+
+/* Efecto de sombra para agregar profundidad */
+.futuristic-button:active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra al hacer clic */
+    transform: translateY(2px); /* Elevación del botón al hacer clic */
+}
+
+footer{
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    margin: 15px;
+    color: rgba(255, 255, 255, 0.773);
+}
+
+#imagen-fondo{
+    width: 100%;
+    background-color: rgb(13, 11, 11);
+}
+
+.ubicacion-botones{
+    align-self: bottom;
+}
+
+.centrar-elementos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-contacto{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-autor{
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 1500px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    section{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    #imagen-fondo{
+        display: none;
+    }
+
+    #cuadro-texto-ingresado, #cuadro-texto-resultado {
+        clip-path: none;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 95%;
+        height: 95%;
+        background-color: rgba(173, 216, 230, 0.8);
+        padding: 10px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    textarea{
+        resize: both;
+        width: 95%;
+        height: 95%;
+    }
+
+    #textarea-texto-ingresado,
+    #textarea-texto-resultado {
+        position: relative;
+        top: 0px;
+        width: 95%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ubicacion-botones,
+    .ubicacion-boton-copiar {
+        top: 0px;
+        left: 0px;
+        transform: translateX(0%);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .futuristic-button{
+        margin: 10px 5px 0px 5px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p {
+        margin: 15px;
+    }
+
+    .texto-contacto{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    .texto-autor{
+        font-size: 8px;
+    }
+}
