@@ -1,7 +1,3 @@
-let anchoPantalla = window.innerWidth;
-alert("Ancho de la pantalla: " + anchoPantalla);
-
-
 function ajustarTamano(id) {
     document.getElementById(id).style.fontSize = '20px';
 }
