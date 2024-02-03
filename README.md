@@ -1,15 +1,6 @@
 # Challenge 01 Encriptador
 
 ## Descripción
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
 > [!WARNING]  
 > La finalidad del Challenge es adquirir experiencia, por lo que el método de encriptación debe considerarse inseguro.
 
