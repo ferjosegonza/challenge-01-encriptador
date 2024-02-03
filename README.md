@@ -1,7 +1,7 @@
 # Challenge 01 Encriptador
 
 ## Descripción
-
+[!NOTE]
 Primer Challenge del curso Oracle Next Education (ONE) basado en un Encriptador / Desencriptador, que permita copiar el resultado. Los estilos pueden ser adaptados según la preferencia del desarrollador.
 
 *Descripción del Desafío "Challenge Encriptador"
